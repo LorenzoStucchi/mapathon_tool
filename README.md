@@ -1,5 +1,5 @@
 # Mapathon Results
-Jupyter notebook that provide a rank of the user based on the number of building created during the mapathon.
+The project is Jupyter notebook that provides different tools that can be used during a mapathon.
 
 ## Getting Started
 
@@ -20,8 +20,24 @@ For running the following packages are needed and is tested with that version:
 pip instal overpass
 ```
 
-Other packages can be installed creating a conda enviroment.
+Other packages can be installed creating a conda environment.
+
+### Option
+
+Brief description of the different option
+
+#### building_rank
+The first tool can be used during a mapathon to evaluate who mapped the high number of building. 
+The parameters to be set are:
+- the bounding box
+- the time of the event (*must be* converted in UTC format)
+
+#### building_user
+This tool can be used to evaluate how a group of user mapped building during a certain time span.
+The parameters to be set are:
+- the bounding box
+- the days to analyze
+- the list of the username, to be inserted in the file *user_list.csv* add a  username for each line
 
 ## Future work
 - Analysis of other elements mapped (ex. roads).
-- Analysis by list of users ranked by the number of changeset.
