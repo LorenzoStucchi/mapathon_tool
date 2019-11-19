@@ -1,13 +1,13 @@
 # Mapathon Results
 The project is Jupyter notebook that provides different tools that can be used during a mapathon.
 
-*[Getting Started](#getting-started)
-  *[Prerequisites](#prerequisites)
-  *[Installing](#installing)
-*[Use](#use)
-  *[building_rank](#building_rank)
-  *[building_user](#building_user)
-*[Future work](#future-work)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installing](#installing)
+* [Use](#use)
+  * [building_rank](#building_rank)
+  * [building_user](#building_user)
+* [Future work](#future-work)
   
 ## Getting Started
 
