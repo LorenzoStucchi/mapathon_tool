@@ -15,32 +15,32 @@ The project is Jupyter notebook that provides different tools that can be used d
 
 For running the following packages are needed and is tested with that version:
 
-* Folium 0.10.0
-* Jupyter Notebook 6.0.1
-* Pandas 0.25.3
-* Overpass 0.6.1
+* Folium
+* Jupyter Notebook
+* Pandas
+* [Overpass](https://github.com/mvexel/overpass-api-python-wrapper/releases)
 
 ### Installing
 
-*Overpass* library is available [here](https://github.com/mvexel/overpass-api-python-wrapper/releases) and can be installed with
+The requirements could be installed using:
 
 ```
-pip instal overpass
+pip instal -r requirements.txt
 ```
 
-Other packages can be installed creating a conda environment.
 
 ## Use
 
 Brief description of the different option
 
 ### building_rank
-The first tool can be used during a mapathon to evaluate who mapped the high number of building. 
+The first tool can be used during a mapathon to evaluate who mapped the high number of building, check also if some user didn't insert the tag.
 The parameters to be set are:
 - the bounding box
 - the time of the event (*must be* converted in UTC format)
 
 ### building_user
+(*OLD VERSION*)
 This tool can be used to evaluate how a group of user mapped building during a certain time span.
 The parameters to be set are:
 - the bounding box
